@@ -2113,4 +2113,8 @@ footer{
         margin: 0 3px;
         font-size: 13px;
     }
+
+    .main_content_lower{
+        padding: 100px 0;
+    }
 }
