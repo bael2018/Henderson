@@ -2036,3 +2036,25 @@ footer{
         width: 360px;
     }
 }
+
+@media screen and (max-width:416px){
+
+    .header_upper_inner2 a{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:402px){
+
+    .header_lower_inside2 label input{
+        width: 340px;
+    }
+
+    .footer_inside{
+        width: 70%;
+        margin: 0 auto;
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+}
