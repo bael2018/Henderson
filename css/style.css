@@ -2058,3 +2058,38 @@ footer{
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width:396px){
+
+    .middle a{
+        margin: 0 5px;
+        font-size: 13px;
+    }
+
+    .block3_in div h2{
+        font-size: 17px;
+    }
+
+    .footer_inside{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+
+    .header_lower_inside2 label input{
+        width: 320px;
+    }
+
+    .main_content_lower label input{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:386px){
+
+    .header_upper_inner2 a{
+        font-size: 13px;
+        margin-left: 5px;
+    }
+}
