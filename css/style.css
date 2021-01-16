@@ -2093,3 +2093,24 @@ footer{
         margin-left: 5px;
     }
 }
+
+@media screen and (max-width:372px){
+
+    .header_lower_inside2 label input{
+        width: 300px;
+    }
+
+    .header_upper_inner2 a{
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    .tolka{
+        margin-right: 10px !important;
+    }
+
+    .middle a{
+        margin: 0 3px;
+        font-size: 13px;
+    }
+}
