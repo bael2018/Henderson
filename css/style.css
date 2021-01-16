@@ -1884,8 +1884,8 @@ footer{
 @media screen and (max-width:512px){
 
     .middle a{
-        margin: 5px;
-        font-size: 13px;
+        margin: 0 9px;
+        font-size: 14px;
     }
 
     .middle{
@@ -1908,5 +1908,131 @@ footer{
 
     .block3_in div h2{
         font-size: 22px;
+    }
+
+    .hiding{
+        display: none;
+    }
+}
+
+@media screen and (max-width:484px){
+
+    .header_lower_inside2 label input{
+        width: 420px;
+    }
+    
+    .block3_inner2 div p{
+        font-size: 16px;
+    }
+
+    .block3_in div h2{
+        font-size: 20px;
+    }
+
+    .main_content_lower label input{
+        width: 250px;
+    }
+
+    .footer_inside{
+        width: 60%;
+        margin: 0 auto;
+        margin-left: 20%;
+        margin-top: 30px;
+        padding-left: 0%;
+    }
+
+    .svas{
+        padding-left: 12%;
+    }
+
+    .footer_lower{
+        flex-direction: column;
+    }
+
+    .footer_lower div{
+        text-align: center;
+    }
+
+    .footer_lower_in1 p{
+        font-size: 16px;
+    }
+
+    .footer_lower_in2 img{
+        width: 60px;
+        margin: 0 5px;
+    }
+
+    .footer_lower_in2{
+        margin-top: 6px;
+    }
+}
+
+@media screen and (max-width:462px){
+
+    .header_lower_inside2 label input{
+        width: 400px;
+    }
+
+    .svas{
+        padding-left: 10%;
+    }
+
+    .main_content_lower p{
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .block3_inner2 div p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:442px){
+
+    .header_lower_inside2 label input{
+        width: 380px;
+    }
+
+    .block3_in{
+        margin-left: 14px;
+    }
+
+    .main_content_lower label input{
+        width: 200px;
+    }
+
+    .footer_inside{
+        width: 70%;
+        margin: 0 auto;
+        margin-left: 20%;
+        margin-top: 30px;
+    }
+
+    .header_upper_inner1 a{
+        margin-right: 25px;
+        font-size: 13px;
+    }
+
+    .header_upper_inner2 a{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:430px){
+
+    .middle a{
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .block3_in div h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:422px){
+
+    .header_lower_inside2 label input{
+        width: 360px;
     }
 }
